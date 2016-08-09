@@ -3,8 +3,11 @@
     "properties": {
         "name": "main",
         "environment": {
-            "type": "noflo-browser"
-        }
+            "type": "noflo-browser",
+            "content": ""
+        },
+        "description": "test alert",
+        "icon": ""
     },
     "inports": {},
     "outports": {},
