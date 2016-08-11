@@ -3,15 +3,43 @@
     "properties": {
         "name": "main",
         "environment": {
-            "type": "noflo-browser",
-            "content": ""
-        },
-        "description": "test alert",
-        "icon": ""
+            "type": "noflo-browser"
+        }
     },
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {},
+    "processes": {
+        "dom/WriteHtml_huntx": {
+            "component": "dom/WriteHtml",
+            "metadata": {
+                "label": "WriteHtml",
+                "x": 396,
+                "y": -36,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "interaction/ListenMouse_u36m6": {
+            "component": "interaction/ListenMouse",
+            "metadata": {
+                "label": "ListenMouse",
+                "x": 396,
+                "y": 288,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "core/Kick_5461": {
+            "component": "core/Kick",
+            "metadata": {
+                "label": "Kick",
+                "x": 396,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
     "connections": []
 }
